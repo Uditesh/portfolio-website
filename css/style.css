@@ -854,10 +854,10 @@ select,
 }
 @media (max-width: 391px) {
     .projects-page {
-        padding-top: 30.2rem;
+        padding-top: 35.8rem;
     }
 .about-me-page{
-    padding-top: 10px;
+    padding-top: 40px;
 }
 .project-bottom {
     height: 22.7rem;

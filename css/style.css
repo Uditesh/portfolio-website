@@ -531,7 +531,7 @@ select,
 /* media query for 1053px width */
 @media (max-width: 1053px) {
     .projects-heading-with-line {
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
     #about-me{
         padding-bottom: 200px;
@@ -660,7 +660,6 @@ select,
         padding: 2px;
     }
 
-
     .vertical-line {
         height: 150px;
     }
@@ -742,7 +741,7 @@ select,
 
 @media (max-width: 587px) {
     .projects-page {
-            padding-top: 24rem;
+            padding-top: 4rem;
         }
     .project-bottom {
         height: 22.5rem;
@@ -831,7 +830,7 @@ select,
 
 @media (max-width: 544px) {
     .projects-page {
-            padding-top: 25rem;
+            padding-top: 5rem;
         }
 
         .horizontal-line {
@@ -849,13 +848,13 @@ select,
 }
 @media (max-width: 422px) {
     .projects-page {
-        padding-top: 32rem;
+        padding-top: 5rem;
     }
 
 }
 @media (max-width: 391px) {
     .projects-page {
-        padding-top: 35rem;
+        padding-top: 5rem;
     }
 .project-bottom {
     height: 22.6rem;

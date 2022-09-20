@@ -840,7 +840,7 @@ select,
 }
 @media (max-width: 474px) {
     .projects-page {
-        padding-top: 32rem;
+        padding-top: 20rem;
     }
     .projects-page-para{
         font-size: 20px;
@@ -852,12 +852,19 @@ select,
     }
 
 }
-@media (max-width: 391px) {
+
+@media (max-width: 393px) {
+    .home-page {
+            height: 500px;
+        }
+    .home-area {
+            height: 100%;
+        }
     .projects-page {
-        padding-top: 36.5rem;
+        padding-top: 13rem;
     }
 .about-me-page{
-    padding-top: 40px;
+    padding-top: 0;
 }
 .project-bottom {
     height: 22.7rem;
@@ -872,7 +879,7 @@ select,
     font-size: 20px;
 }
 .social-icons {
-    padding-bottom: 205px;
+    padding-bottom: 105px;
 }
 .socials svg{
     height: 19px;
@@ -990,10 +997,14 @@ select,
 }
 
 }
-
-@media (max-width: 344px) {
+@media (max-width: 390px) {
     .projects-page {
-        padding-top: 40rem;
+        padding-top: 14rem;
+    }
+}
+@media (max-width: 375px) {
+    .projects-page {
+        padding-top: 24rem;
     }
 }
 @media (max-width: 323px) {

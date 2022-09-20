@@ -514,11 +514,9 @@ select,
     font-size: 18px;
     font-weight: 50;   
     text-align: center;
-}
-
-.copyright-text{
     padding-top: 5%;
 }
+
 
 /* Media Queries */
 @media (max-width: 995px) {

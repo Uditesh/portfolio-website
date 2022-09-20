@@ -169,7 +169,7 @@ nav.navbar ul li a:hover:after {
 }
 
 .socials{
-    margin: 40px 30px auto;
+    margin: 40px 30px auto 30px;
 }
 
 .socials svg:hover{

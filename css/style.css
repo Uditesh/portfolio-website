@@ -817,6 +817,9 @@ select,
         .container-left h2 {
             font-size: 16.5px;
         }
+        .copyright-text {
+            padding-top: 5px;
+        }
 
 }
 
@@ -947,10 +950,6 @@ select,
     font-size: 14px;
     font-weight: 20;
     text-align: center;
-}
-
-.copyright-text {
-    padding-top: 2%;
 }
 
 }

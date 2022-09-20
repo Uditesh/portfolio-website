@@ -639,6 +639,7 @@ select,
         }
         .about-me-para {
             font-size: 15px;
+            margin-top: 15px;
         }
         .profile-img {
             width: 270px;
@@ -747,6 +748,7 @@ select,
         }
         .about-me-page {
             padding-left:  20px;
+            padding-top: 20px;
         }
         .projects-page {
             padding-left:  20px;

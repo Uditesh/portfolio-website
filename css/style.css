@@ -848,8 +848,30 @@ select,
 }
 @media (max-width: 422px) {
     .projects-page {
-        padding-top: 35rem;
+        padding-top: 11rem;
     }
+
+}
+@media (max-width: 412px) {
+    .projects-page {
+        padding-top: 12rem;
+    }
+        .home-page {
+            height: 500px;
+        }
+    
+        .home-area {
+            height: 100%;
+        }
+        .skills-list {
+            padding-right: 30px;
+        }
+        .skills-list li{
+            padding-right: 35px;
+        }
+        .container-left h2 {
+            font-size: 16.5px;
+        }
 
 }
 
@@ -927,7 +949,7 @@ select,
 }
 
 .container-left h2 {
-    font-size: 19px;
+    font-size: 17px;
 }
 
 .container-left-para {

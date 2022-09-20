@@ -9,10 +9,10 @@ menu.onclick = function () {
 
 // Mouse hover effect on profile image
 profileImage.addEventListener("mouseenter", () => {
-  profileImage.src = "../images/uj7.png";
+  profileImage.src = "./images/uj7.png";
 });
 profileImage.addEventListener("mouseleave", () => {
-  profileImage.src = "../images/uj6.png";
+  profileImage.src = "./images/uj6.png";
 });
 
 var mybutton = document.getElementById("myBtn");

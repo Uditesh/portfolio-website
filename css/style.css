@@ -854,10 +854,10 @@ select,
 }
 @media (max-width: 391px) {
     .projects-page {
-        padding-top: 0.5rem;
+        padding-top: 5px;
     }
 .project-bottom {
-    height: 22.6rem;
+    height: 22.7rem;
     padding: 0.5rem;
 }
 .name {
@@ -869,7 +869,7 @@ select,
     font-size: 20px;
 }
 .social-icons {
-    padding-bottom: 135px;
+    padding-bottom: 155px;
 }
 .socials svg{
     height: 19px;

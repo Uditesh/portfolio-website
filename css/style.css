@@ -846,10 +846,28 @@ select,
         font-size: 20px;
     }
 }
-@media (max-width: 422px) {
+@media (max-width: 451px) {
     .projects-page {
         padding-top: 31rem;
+        
     }
+        .home-page {
+            height: 600px;
+        }
+}
+@media (max-width: 422px) {
+    .projects-page {
+        padding-top: 33rem;
+    }
+
+}
+@media (max-width: 419px) {
+    .projects-page {
+        padding-top: 35rem;
+    }
+         .home-page {
+             height: 500px;
+         }
 
 }
 @media (max-width: 412px) {
@@ -860,9 +878,6 @@ select,
             height: 500px;
         }
     
-        .home-area {
-            height: 100%;
-        }
         .skills-list {
             padding-right: 30px;
         }
@@ -875,7 +890,7 @@ select,
 
 }
 
-@media (max-width: 393px) {
+@media (max-width: 395px) {
     .home-page {
             height: 500px;
         }

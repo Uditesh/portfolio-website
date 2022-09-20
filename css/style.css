@@ -531,7 +531,7 @@ select,
 /* media query for 1053px width */
 @media (max-width: 1053px) {
     .projects-heading-with-line {
-        margin-top: 1rem;
+        margin-top: 2rem;
     }
     #about-me{
         padding-bottom: 200px;
@@ -553,7 +553,7 @@ select,
             padding: 1rem;
         }
     .projects-page {
-            padding-top: 300px;
+            padding-top: 400px;
         }
         .project-1,
         .project-2,
@@ -741,7 +741,7 @@ select,
 
 @media (max-width: 587px) {
     .projects-page {
-            padding-top: 4rem;
+            padding-top: 25rem;
         }
     .project-bottom {
         height: 22.5rem;
@@ -830,7 +830,7 @@ select,
 
 @media (max-width: 544px) {
     .projects-page {
-            padding-top: 5rem;
+            padding-top: 27rem;
         }
 
         .horizontal-line {
@@ -840,7 +840,7 @@ select,
 }
 @media (max-width: 474px) {
     .projects-page {
-        padding-top: 28rem;
+        padding-top: 32rem;
     }
     .projects-page-para{
         font-size: 20px;
@@ -848,13 +848,13 @@ select,
 }
 @media (max-width: 422px) {
     .projects-page {
-        padding-top: 5rem;
+        padding-top: 35rem;
     }
 
 }
 @media (max-width: 391px) {
     .projects-page {
-        padding-top: 35.8rem;
+        padding-top: 36.5rem;
     }
 .about-me-page{
     padding-top: 40px;
@@ -991,6 +991,16 @@ select,
 
 }
 
+@media (max-width: 344px) {
+    .projects-page {
+        padding-top: 40rem;
+    }
+}
+@media (max-width: 323px) {
+    .projects-page {
+        padding-top: 44rem;
+    }
+}
 @media (min-width: 800px) {
     #gototop-button {
         margin: 30px;

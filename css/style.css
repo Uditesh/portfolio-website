@@ -854,11 +854,11 @@ select,
 }
 @media (max-width: 391px) {
     .projects-page {
-        padding-top: 28.2rem;
+        padding-top: 30.2rem;
     }
-    .about-me-page {
-        padding: 30px 0 80px 60px;
-    }
+.about-me-page{
+    padding-top: 10px;
+}
 .project-bottom {
     height: 22.7rem;
     padding: 0.5rem;
@@ -872,7 +872,7 @@ select,
     font-size: 20px;
 }
 .social-icons {
-    padding-bottom: 155px;
+    padding-bottom: 205px;
 }
 .socials svg{
     height: 19px;

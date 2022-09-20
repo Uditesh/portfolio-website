@@ -854,7 +854,7 @@ select,
 }
 @media (max-width: 391px) {
     .projects-page {
-        padding-top: 5rem;
+        padding-top: 0.5rem;
     }
 .project-bottom {
     height: 22.6rem;
@@ -869,7 +869,7 @@ select,
     font-size: 20px;
 }
 .social-icons {
-    padding-bottom: 105px;
+    padding-bottom: 135px;
 }
 .socials svg{
     height: 19px;
@@ -983,7 +983,7 @@ select,
 }
 
 .copyright-text {
-    padding-top: 30px;
+    padding-top: 2px;
 }
 
 }

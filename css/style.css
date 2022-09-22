@@ -331,9 +331,6 @@ nav.navbar ul li a:hover:after {
     background-color: #838383;
     opacity: 0.98;
     color: black;
-    /* display: flex;     
-    align-items: center;
-    justify-items: center; */
     padding: 1.4rem;
     margin-left: -80px;
     margin-top: 2.5rem;
@@ -401,7 +398,7 @@ nav.navbar ul li a:hover:after {
     padding: 1.55rem;
     margin-top: 2.5rem;
     z-index: 1;
-    margin-right: -50px;
+    margin-right: -20px;
     box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
 }
 

@@ -421,8 +421,9 @@ nav.navbar ul li a:hover:after {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    padding: 80px 0 60px 60px;
-    height: 100vh;
+    padding-top: 5%;
+    padding-left: 4%;
+    height: 100%;
 }
 
 .contact-me-heading{
@@ -749,10 +750,6 @@ select,
         .projects-page {
             padding-left:  20px;
         }
-        .contact-me-page {
-            padding-left: 20px;
-            padding-bottom: 10px;
-        }
     
         .container-left h2 {
             font-size: 20px;
@@ -947,7 +944,7 @@ select,
     font-size: 14px;
     font-weight: 20;
     text-align: center;
-    padding-top: 30ox;
+    padding-top: 20px;
 }
 
 }

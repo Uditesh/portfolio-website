@@ -144,17 +144,22 @@ nav.navbar ul li a:hover:after {
     margin: 7rem 1rem auto 4%;
 }
 
+.resume-button-anchor{
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px;
+}
+
 .resume-btn{
+    background-color: #a13913;
+    border-radius: 40px;
+    border: none;
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(241, 241, 241);
     height: 60px;
     width: 150px;
-    background-color: #a13913;
-    border-radius: 30px;
-    border: none;
-    text-align: center;
-    font-size: 25px;
-    font-weight: 500;
-    padding: 5px;
-    color: rgb(241, 241, 241);
     margin-top: 25px;
 }
 

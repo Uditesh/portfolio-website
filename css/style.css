@@ -571,6 +571,7 @@ select,
     }
         .profile-img{
             margin-left: 0;
+            margin: 30px auto auto auto;
         }
     
 }

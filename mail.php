@@ -10,7 +10,6 @@ $recipient =  "uditesh.r.jha@gmail.com";
 $subject = "Portfolio Message";
 
 mail($recipient,$subject,$message,$mailheader) or die("Error!");
-// header('Location: index.html');
-echo "Message sent";
+header('Location: index.html');
 }
 ?>

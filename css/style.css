@@ -422,6 +422,32 @@ nav.navbar ul li a:hover:after {
 
 /* Contact me page */
 
+.success-submit-message {
+    background: #e9f3e9;
+    font-size: 14px;
+    color: #4caf50;
+    border-radius: 4px;
+    padding: 6px 20px;
+    margin-bottom: 16px;
+    display: none;
+}
+
+.success-submit-message.active {
+    display: block;
+}
+
+.validation-error {
+    background: #ffeaea;
+    font-size: 14px;
+    color: #f44336;
+    border-radius: 4px;
+    display: none;
+}
+
+.validation-error.active{
+    display: block;
+}
+
 .contact-me-page {
     display: flex;
     justify-content: flex-start;

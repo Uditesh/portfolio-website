@@ -307,36 +307,41 @@
         <div class="row">
           <div class="column">
             <form
+              action="mail.php"
+              method="POST"
               id="contact-form"
-              action="mailto:uditesh.r.jha@gmail.com"
-              method="post"
+              name="contactForm"
               enctype="text/plain"
             >
+              <!-- <div id="required-field"></div> -->
+              <p class="success-submit-message">
+                Your message has been successfully sent.
+              </p>
+              <p class="validation-error"></p>
               <!-- <label for="name">Your Name</label> -->
               <input
                 type="text"
                 id="name"
                 name="name"
                 placeholder="Your Name"
-                required
               />
+
               <!-- <label for="email">Email</label> -->
               <input
-                type="email"
+                type="text"
                 id="email"
                 name="email"
                 placeholder="Your Email"
-                required
               />
+
               <!-- <label for="subject">Subject</label> -->
               <textarea
                 id="subject"
                 name="message"
                 placeholder="Write your message"
                 style="height: 100px"
-                required
               ></textarea>
-              <input class="submit-btn" type="submit" name="button" />
+              <input class="submit-btn" type="submit" name="submit" />
             </form>
           </div>
         </div>

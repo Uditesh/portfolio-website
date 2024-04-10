@@ -297,7 +297,9 @@ nav.navbar ul li a:hover:after {
 
 .project-1,
 .project-2, 
-.project-3 {
+.project-3,
+.project-4,
+.project-5 {
     width: 90%;
     max-width: 62.5rem;
     margin: 0 auto;
@@ -311,11 +313,12 @@ nav.navbar ul li a:hover:after {
 }
 
 
-.project-1-left,.project-3-left {
+.project-1-left,.project-3-left, .project-5-left {
     width: 60%;
 }
 
-.project-1-left img {
+.project-1-left img,
+.project-5-left img {
     width: 90%;
     height: 24rem;
     border: 1px solid #000;
@@ -330,7 +333,7 @@ nav.navbar ul li a:hover:after {
 }
 
 
-.project-1-right, .project-3-right {
+.project-1-right, .project-3-right, .project-5-right {
     width: 45%;
     height: 19rem;
     background-color: #838383;
@@ -387,11 +390,11 @@ nav.navbar ul li a:hover:after {
     margin-left: 8px;
 }
 
-.project-2, .project-3 {
+.project-2, .project-3, .project-4, .project-5 {
     margin-top: 3.5rem;
 }
 
-.project-2-left {
+.project-2-left, .project-4-left {
     width: 45%;
     height: 19rem;
     background-color: #838383;
@@ -408,14 +411,16 @@ nav.navbar ul li a:hover:after {
 }
 
 
-.project-2-right img {
+.project-2-right img , 
+.project-4-right img{
     width: 90%;
     height: 24rem;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     border: 1px solid #000;
 }
 
-.project-2-right {
+.project-2-right,
+.project-4-right {
     width: 60%;
 }
 
@@ -551,17 +556,23 @@ select,
 @media (max-width: 995px) {
     .project-2-left,
         .project-1-right,
-        .project-3-right {
+        .project-3-right,
+        .project-4-left,
+        .project-5-right {
             padding: 1rem;
         }
         .project-1,
         .project-2,
-        .project-3{
+        .project-3,
+        .project4,
+        .project-5{
             margin-top: 20px;
         flex-direction: column;
     }
         .project-2,
-        .project-3 {
+        .project-3,
+        .project-4,
+        .project-5 {
             margin-top: 80px;
         }
         .project-top {
@@ -585,7 +596,9 @@ select,
     }
         .project-2-left,
         .project-1-right,
-        .project-3-right {
+        .project-3-right,
+        .project-4-left,
+        .project-5-right {
             padding: 2.5rem;
         }
     .about-me-content{

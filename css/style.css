@@ -591,6 +591,14 @@ select,
     .project-2-left{
         order: 7;
     }
+
+    .project-4-right{
+        order: 12;
+    }
+    .project-4-left{
+        order: 13;
+    }
+
     .vertical-line {
         height: 150px;
     }
